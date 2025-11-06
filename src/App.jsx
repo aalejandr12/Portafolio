@@ -22,7 +22,7 @@ function App() {
       </motion.nav>
 
       {/* Hero Section */}
-      <section id="hero" className="relative h-screen flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url("https://via.placeholder.com/1500x800")' }}>
+      <section id="hero" className="relative h-screen flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url("/Purrcrafter.png")' }}>
         <div className="absolute inset-0 bg-black opacity-70"></div>
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -86,7 +86,7 @@ function App() {
               transition={{ duration: 0.6 }}
               className="bg-gray-800 rounded-lg shadow-lg p-6"
             >
-              <img src="https://via.placeholder.com/600x400" alt="PurrCrafter" className="rounded-lg mb-4"/>
+              <img src="/Purrcrafter.png" alt="PurrCrafter" className="rounded-lg mb-4"/>
               <h3 className="text-2xl font-bold mb-2">PurrCrafter - Herramientas PDF Online</h3>
               <p className="text-gray-400 mb-4">Aplicación web para manipular archivos PDF de manera fácil y eficiente.</p>
               <a href="https://aalejandr12.github.io/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">Ver Proyecto</a>
@@ -100,7 +100,8 @@ function App() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="bg-gray-800 rounded-lg shadow-lg p-6"
             >
-              <img src="https://via.placeholder.com/600x400" alt="SmartSort" className="rounded-lg mb-4"/>
+              <img src="/Sorting1.png" alt="SmartSort" className="rounded-lg mb-4"/>
+              <img src="/Sorting2.png" alt="SmartSort" className="rounded-lg mb-4"/>
               <h3 className="text-2xl font-bold mb-2">SmartSort - Sistema de Clasificación de Paquetes</h3>
               <p className="text-gray-400 mb-4">Solución integral (app de escritorio y móvil) para clasificar y escanear paquetes.</p>
               <p className="text-gray-500 text-sm">Kotlin, C# y 9 aptitudes más</p>
